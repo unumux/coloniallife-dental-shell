@@ -1,0 +1,28 @@
+.willow-logo-link {
+    text-decoration: none;
+    
+    &__image {
+        display: inline-block;
+    }
+}
+
+.willow-card-grid {
+    display: block;
+    margin-bottom: $space-xxl;
+
+    @media (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.willow-card-grid__item {
+    margin-right: 0;
+
+    @media (min-width: 768px) {
+        margin-right: $space;
+    }
+}
+
+.willow-card {
+    max-width: none;
+}

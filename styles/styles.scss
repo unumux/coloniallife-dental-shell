@@ -1,6 +1,8 @@
 @import "node_modules/@unumux/theme-coloniallife-default/styles";
 @import "node_modules/@unumux/willow/styles";
 
+@import "overrides/willow";
+
 @import 'feature/feature';
 
 $component-icon-bg-background-color: $theme-accent;
@@ -8,14 +10,6 @@ $component-icon-bg-background-color: $theme-accent;
 $component-border-color: $theme-base-3;
 $component-logo-border-color: $theme-base-3;
 $component-logo-text-color: $theme-text-inverse;
-
-.willow-logo-link {
-    text-decoration: none;
-    
-    &__image {
-        display: inline-block;
-    }
-}
 
 .logo-text {
     border-left: 2px solid $component-logo-border-color;
@@ -71,15 +65,12 @@ $component-logo-text-color: $theme-text-inverse;
 .container {
     display: block;
     flex-direction: initial;
+    max-width: none; /* Will this break things? */
     min-height: auto;
 
     @media (min-width: 1200px) {
-        max-width: 1260px;
+        max-width: 1220px;
     }
-}
-
-.willow-card-grid {
-    margin-bottom: $space-xxl;
 }
 
 .up {
