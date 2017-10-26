@@ -4,6 +4,8 @@
 @import "overrides/willow";
 
 @import 'feature/feature';
+@import 'help/help';
+@import 'provider/provider';
 
 $component-icon-bg-background-color: $theme-accent;
 
@@ -20,7 +22,7 @@ $component-logo-text-color: $theme-text-inverse;
 }
 
 .homepage-feature {
-    background-image: url('../hero-image@2x.jpg');
+    background-image: url('../images/hero-image@2x.jpg');
 }
 
 .icon-bg {
@@ -35,17 +37,22 @@ $component-logo-text-color: $theme-text-inverse;
 }
 
 .icon-pin,
-.icon-dental {
+.icon-dental,
+.icon-gear {
     height: 100%;
     width: 100%;
 }
 
 .icon-pin {
-    background-image: url('../icon-pin.svg');
+    background-image: url('../images/icon-pin.svg');
 }
 
 .icon-dental {
-    background-image: url('../icon-dental.svg');
+    background-image: url('../images/icon-dental.svg');
+}
+
+.icon-gear {
+    background-image: url('../images/icon-gear.png');
 }
 
 

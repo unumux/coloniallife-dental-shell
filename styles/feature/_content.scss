@@ -34,13 +34,15 @@
             z-index: -1;
         }
 
-        .feature--flip & {
-            box-shadow: -5px 8px 12px 0 $component-feature-box-shadow-color;
-            margin-right: -$space-xl;
+    }
 
-            &::after {
-                left: -$space;
-                right: inherit;
+    .willow-styling-context {
+        a {
+            color: #333;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
             }
         }
     }

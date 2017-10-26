@@ -26,3 +26,7 @@
 .willow-card {
     max-width: none;
 }
+
+.willow {
+    @import 'secondary-nav/secondary-nav';
+}
