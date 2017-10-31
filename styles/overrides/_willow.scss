@@ -27,6 +27,52 @@
     max-width: none;
 }
 
+.willow-logo-link__image {
+    &--cl {
+        height: 30px;
+
+        @media all and (min-width: 828px) {
+            height: 40px;
+        }
+    }
+}
+
+.willow-page-header {
+    
+        &__content-controls {
+            padding-top: $space-xxl;
+        }
+    }
+
 .willow {
     @import 'secondary-nav/secondary-nav';
+}
+
+.willow-page-header__content-controls {
+    padding-top: $space;
+    padding-bottom: $space;
+
+    @media all and (min-width: 828px) {
+        padding-top: $space-l;
+        padding-bottom: $space-l;
+    }
+}
+
+.willow-page-header__branding {
+    margin-bottom: $space;
+    margin-top: $space;
+
+    &:first-child {
+        margin-top: $space;
+    }
+
+    @media all and (min-width: 828px) {
+        margin-bottom: $space-l;
+        margin-top: $space-l;
+    
+        &:first-child {
+            margin-top: $space-l;
+        }
+
+    }
 }
