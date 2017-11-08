@@ -23,6 +23,7 @@ $component-logo-text-color: $theme-text-inverse;
 
 .homepage-feature {
     background-image: url('../images/hero-image@2x.jpg');
+    background-position: 50%;
 }
 
 .icon-bg {
@@ -82,4 +83,9 @@ $component-logo-text-color: $theme-text-inverse;
 
 .up {
     margin-top: -$space-l;    
+}
+
+.cl-dental-list {
+    list-style: none;
+    padding-left: 0;
 }
