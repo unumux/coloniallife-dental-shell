@@ -38,6 +38,8 @@
 }
 
 .willow-page-header {
+
+    background-color: #fff;
     
         &__content-controls {
             padding-top: $space-xxl;
@@ -75,4 +77,50 @@
         }
 
     }
+}
+
+
+.willow-primary-nav__link {
+    // background-color: #19557f;
+    color: $theme-primary;
+    text-decoration: none;
+
+    &:focus {
+        background-color: $theme-base-3;    
+    }
+
+    &:visited {
+        // background-color: $theme-base;
+        color: $theme-primary;
+    }
+
+    &:hover {
+        background-color: $theme-base-3;
+    }
+
+    &:active {
+        background-color: $theme-base-2;
+    }
+}
+
+.willow-primary-nav__link--active {
+    background-color: $theme-base-2;
+    color: $theme-primary;
+}
+
+.willow-page-footer {
+    background-color: #fff;
+}
+
+.willow-footer-nav__link {
+    color: #19557f;
+
+    &:hover {
+        color: #19557f;
+        text-decoration: none;
+    }
+}
+
+.willow-page-footer__copyright {
+    color: #2e2e2e;
 }
