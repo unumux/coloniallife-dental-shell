@@ -1,0 +1,9 @@
+.mobile-app {
+    margin: $space-stack-xl;
+
+    @import 'actions';
+    @import 'action';
+    @import 'content';
+    @import 'heading';
+}
+    

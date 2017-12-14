@@ -9,7 +9,7 @@
         "main": "scripts/site.js"
     },
     "watch": [
-        "index.html"
+        "index.html", "dental2.html"
     ],
     "server": true,
     "compileJs": true,

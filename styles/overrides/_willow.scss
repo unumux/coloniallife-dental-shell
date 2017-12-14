@@ -124,3 +124,52 @@
 .willow-page-footer__copyright {
     color: #2e2e2e;
 }
+
+// .willow-page-header__content {
+//     position: relative;
+// }
+
+.willow-primary-nav {
+    &__item {
+        display: inline-block;
+    }
+
+    &__link {
+        display: block;
+        padding: 0.75rem;
+        text-decoration: none;
+        
+        [data-expanded="false"] & {
+            &:after {
+                border-bottom: 5px solid white;
+                border-left: 5px solid transparent;
+                border-right: 5px solid white;
+                border-top: 5px solid transparent; 
+                vertical-align: text-top;
+            }
+        }
+        
+        [data-expanded="true"] & {
+            &:after {
+                border-bottom: 5px solid transparent;
+                border-left: 5px solid white;
+                border-right: 5px solid transparent;
+                border-top: 5px solid white;
+                vertical-align: text-bottom;
+            }
+        }
+    }
+}
+
+.willow-page-header {
+    border-bottom: 15px solid #19557f
+}
+
+
+.willow-page-header {
+    align-items: center;
+
+    &__content {
+        display: block;
+    }
+}
