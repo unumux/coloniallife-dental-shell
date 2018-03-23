@@ -1,9 +1,7 @@
-.mobile-app {
+.sidebar-content {
     margin: $space-stack-xl;
-
-    @import 'actions';
     @import 'action';
+    @import 'actions';
     @import 'content';
     @import 'heading';
 }
-    
