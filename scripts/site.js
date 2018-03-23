@@ -4,7 +4,7 @@
 
 // open.addEventListener("click", function(e) {
 //     e.preventDefault();
-//     header.setAttribute("data-content-open", "true");    
+//     header.setAttribute("data-content-open", "true");
 // });
 // close.addEventListener("click", function(e) {
 //     e.preventDefault();
@@ -14,15 +14,13 @@
 let controller = document.querySelector("[data-expanded]");
 let control = document.querySelector("[data-expanded] .dropdown-navControl");
 
-document.addEventListener("click", (e) => {    
-    let status =  controller.getAttribute("data-expanded");
+document.addEventListener("click", e => {
+  let status = controller.getAttribute("data-expanded");
 
-    if(status === "true") {
-        controller.setAttribute("data-expanded", "false");
-    }
-
-    else if(e.target === control) {
-        e.preventDefault();
-        controller.setAttribute("data-expanded", "true");
-    }
+  if (status === "true") {
+    controller.setAttribute("data-expanded", "false");
+  } else if (e.target === control) {
+    e.preventDefault();
+    controller.setAttribute("data-expanded", "true");
+  }
 });
