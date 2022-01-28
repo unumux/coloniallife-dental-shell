@@ -1,0 +1,34 @@
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 4.18868rem;
+    padding: 2.09434rem 4.18868rem;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-display {
+    margin-top: 2.5888rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .card__container {
+        flex-direction: row;
+    }
+
+    .card:first-of-type {
+        margin-right: 1.6rem;
+    }
+
+    .card:nth-child(2n) {
+        margin-left: 1.6rem;
+    }
+}
